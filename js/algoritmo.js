@@ -6,13 +6,53 @@ if (compra == "si") {
     alert ("habra que calcular en elvio")
 }
 
-/*let edad = parseInt(prompt("edad"))
+let cant = parseInt(prompt("cuantos productos queres comprar??"))
 
-let cond = edad == 18;
-console.log(cond);
 
-if (cond) {
-    alert("tiene 18")
-} else {
-    alert("no tiene")
-}*/
+switch (cant) {
+    case 1:
+    case 2:
+    case 3:
+        alert("Tu descuento sera de 3%");
+        break;
+    case 4:
+    case 5:
+    case 6:
+        alert("Tu descuento sera de 5%");
+        break;
+    case 7:
+    case 8:
+    case 9:
+    case 10:
+        alert("Tu descuento sera de 8%");
+        break;
+    default:
+        alert("Deberias preguntar por precio por mayor");
+        break;
+}
+
+/*let nota = parseInt(prompt("Ingrese la nota"));
+
+switch (nota) {
+    case 0:
+    case 1:
+    case 2:
+    case 3:
+        alert("Desaprobado");
+        break;
+    case 4:
+    case 5:
+    case 6:
+        alert("Aprobado");
+        break;
+    case 7:
+    case 8:
+    case 9:
+    case 10:
+        alert("Promocionado");
+        break;
+    default:
+        alert("Nota incorrecta");
+        break;
+}
+*/

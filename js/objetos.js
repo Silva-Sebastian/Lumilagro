@@ -13,8 +13,6 @@ const Termo3 = new Termo ("Isotermico", "Plastico", "$4000")
 ListaTermos = [Termo1, Termo2, Termo3]
 console.log(ListaTermos[1])
 
-
-
 const Acero = [
     {color: "Negro", precio: 13000},
     {color: "Blanco", precio: 14000},

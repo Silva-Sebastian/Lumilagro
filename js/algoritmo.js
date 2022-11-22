@@ -56,3 +56,12 @@ switch (nota) {
         break;
 }
 */
+
+// Modificando el DOM
+
+let carrito = document.getElementById("btn1")
+
+carrito.onclick = () => {
+   alert ("agregado")
+}
+

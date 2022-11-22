@@ -24,3 +24,4 @@ const res1 = Acero.filter((el) => el.color.includes('B'))
 
 console.log(res)
 console.log(res1)
+

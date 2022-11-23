@@ -60,8 +60,9 @@ switch (nota) {
 // Modificando el DOM
 
 let carrito = document.getElementById("btn1")
+let compro = document.getElementById("compro")
 
 carrito.onclick = () => {
-   alert ("agregado")
+   compro.innerHTML = "<strong>Producto agregado a tu carrito</strong>"
 }
 
